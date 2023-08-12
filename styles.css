@@ -1,6 +1,7 @@
 body {
-  background-color: #5AC5B3;
+  background-image: linear-gradient(to right,#b8d2d4, #43d3db);
   font-family: 'Poppins', sans-serif;
+  color: black;
 }
 
 .row {
@@ -14,9 +15,13 @@ body {
 }
 
 h1 {
-  margin-top: 25%;
-  color: white;
-  font-size: 28px;
+  color: black;
+  font-size: 40px;
+}
+
+h3 {
+  font-weight: lighter;
+  color: black;
 }
 
 #avi {
@@ -30,7 +35,6 @@ h1 {
 }
 
 .break {
-  color: white;
   width: 90%;;
   border: 2px solid;
   margin: 5%;
@@ -38,25 +42,18 @@ h1 {
 
 h2 {
   text-align: center;
-  color: white;
   font-size: 30px;
   font-style: italic;
 }
 
 .project {
   width: 90%;
-  color: white;
-  background-color: rgb(187, 108, 203, 0.8);
+  background-color: rgba(240, 238, 133, 0.4);
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 14px;
 }
 
-h3 {
-  color: white;
-  font-weight: bold;
-  font-size: 25px;
-}
 
 .myInfo img {
   border-radius: 15px;
